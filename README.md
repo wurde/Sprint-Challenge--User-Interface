@@ -38,7 +38,7 @@ Semantic HTML is all the elements in a web page that have meaning. This meaning 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Elements with `display: block` will stretch to fill the entire width of their parent element. Elements with `display: inline` will collapse elements onto one row within their parent element. Also `display: inline` completely ignore width and height of elements.
+Elements with `display: block` will stretch to fill the entire width of their parent element. Elements with `display: inline` will collapse elements onto one row within their parent element. Also `display: inline` completely ignores width and height of elements.
 
 3. What are the 4 areas of the box model?
 
