@@ -195,6 +195,10 @@ footer nav a {
   padding: 30px 0px;
 }
 
+.mt-1 {
+	margin-top: 10px;
+}
+
 .mt-2 {
 	margin-top: 25px;
 }
