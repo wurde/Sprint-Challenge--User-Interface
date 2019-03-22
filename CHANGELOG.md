@@ -16,7 +16,7 @@ Changes are categorized as follows:
 
   * Working home and about pages.
 
-* 6 minor enhancements:
+* 7 minor enhancements:
 
   * Answer the Self-Study Questions
   * Spacing on index.html
@@ -24,6 +24,7 @@ Changes are categorized as follows:
   * Add top navbar
   * Add header jumbo image
   * Add background colors to boxes on home page
+  * Add .editorconfig
 
 ## 2019-03-22, Version 0.1.0 (unstable)
 
