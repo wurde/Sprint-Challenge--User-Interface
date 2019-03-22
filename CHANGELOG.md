@@ -11,3 +11,10 @@ Changes are categorized as follows:
 * N bug fixes
 
 ## [Unreleased]
+
+## 2019-03-22, Version 0.1.0 (unstable)
+
+* 2 minor enhancements:
+
+  * docs: add CHANGELOG.md
+  * Initialized project
