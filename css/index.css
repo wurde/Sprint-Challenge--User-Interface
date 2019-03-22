@@ -167,3 +167,27 @@ footer nav a {
 .col-12 {
   width: 100%;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.flex-flow-row-wrap {
+	flex-flow: row wrap;
+}
+
+.justify-content-space-between {
+	justify-content: space-between;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.py-2 {
+  padding: 15px 0px;
+}
+
+.mt-2 {
+	margin-top: 25px;
+}
