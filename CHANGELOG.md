@@ -12,11 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 3 major enhancements:
+* 4 major enhancements:
 
   * Working home and about pages.
   * Add mobile device support.
   * Add animations to home page boxes.
+  * Add products page.
 
 * 7 minor enhancements:
 
