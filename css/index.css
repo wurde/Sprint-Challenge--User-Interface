@@ -322,7 +322,13 @@ footer nav a {
     width: 500px;
     margin: 0 auto;
   }
-  .col-3, .col-6, .col-9 {
+  .col-3, .col-4, .col-6, .col-9 {
     width: 100%;
+  }
+  .pl-0 {
+    padding: 0px;
+  }
+  .pr-0 {
+    padding: 0px;
   }
 }
