@@ -191,3 +191,10 @@ footer nav a {
 .mt-2 {
 	margin-top: 25px;
 }
+
+/* Element specific styles */
+
+.top-navbar a {
+  text-decoration: none;
+  color: black;
+}
