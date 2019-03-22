@@ -235,6 +235,26 @@ footer nav a {
 	background-color: dodgerblue;
 }
 
+.btn {
+  padding: 10px 15px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.rounded {
+  border-radius: 12px;
+}
+
 
 /* Element specific styles */
 
