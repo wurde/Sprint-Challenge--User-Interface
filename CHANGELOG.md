@@ -12,6 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+* 1 minor enhancement:
+
+  * Answer the Self-Study Questions
+
 ## 2019-03-22, Version 0.1.0 (unstable)
 
 * 2 minor enhancements:
