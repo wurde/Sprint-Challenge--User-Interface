@@ -12,13 +12,14 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 5 minor enhancements:
+* 6 minor enhancements:
 
   * Answer the Self-Study Questions
   * Spacing on index.html
   * Spacing on about.html
   * Add top navbar
   * Add header jumbo image
+  * Add background colors to boxes on home page
 
 ## 2019-03-22, Version 0.1.0 (unstable)
 
