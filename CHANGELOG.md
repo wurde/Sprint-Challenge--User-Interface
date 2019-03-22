@@ -12,9 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 1 minor enhancement:
+* 2 minor enhancements:
 
   * Answer the Self-Study Questions
+  * Spacing on index.html 
 
 ## 2019-03-22, Version 0.1.0 (unstable)
 
