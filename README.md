@@ -69,8 +69,6 @@ Follow these steps for completing your project.
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
 
-
-
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
