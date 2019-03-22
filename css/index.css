@@ -151,12 +151,16 @@ footer nav a {
   flex-flow: row wrap;
 }
 
-.col-3, .col-6, .col-9, .col-12 {
+.col-3, .col-4, .col-6, .col-9, .col-12 {
   padding: 0px 15px;
 }
 
 .col-3 {
   width: 25%;
+}
+
+.col-4 {
+  width: 33.3%;
 }
 
 .col-6 {
@@ -187,12 +191,33 @@ footer nav a {
   width: 100%;
 }
 
+.h-220px {
+  height: 220px;
+}
+
+.p-2 {
+  padding: 15px;
+}
+
 .py-2 {
   padding: 15px 0px;
 }
 
 .py-4 {
   padding: 30px 0px;
+}
+
+.px-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
 }
 
 .mt-1 {
@@ -249,6 +274,10 @@ footer nav a {
 
 .bg-dodgerblue {
   background-color: dodgerblue;
+}
+
+.bg-grey {
+  background-color: #EEE;
 }
 
 .btn {
