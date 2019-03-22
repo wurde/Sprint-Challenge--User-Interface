@@ -12,6 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+* 1 major enhancement:
+
+  * Working home and about pages.
+
 * 6 minor enhancements:
 
   * Answer the Self-Study Questions
