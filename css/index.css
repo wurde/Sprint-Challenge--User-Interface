@@ -67,8 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .top-content {
@@ -275,9 +275,25 @@ footer nav a {
   border: 1px dashed black;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Element specific styles */
 
 .top-navbar a {
   text-decoration: none;
   color: black;
+}
+
+/* Mobile styles */
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .col-3, .col-6, .col-9 {
+    width: 100%;
+  }
 }
