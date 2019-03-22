@@ -203,6 +203,10 @@ footer nav a {
 	margin: 0px 15px;
 }
 
+.mb-4 {
+	margin-bottom: 30px;
+}
+
 .bg-teal {
 	background-color: teal;
 }
