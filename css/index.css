@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
@@ -160,7 +160,7 @@ footer nav a {
 }
 
 .col-6 {
-	width: 50%;
+  width: 50%;
 }
 
 .col-9 {
@@ -176,15 +176,15 @@ footer nav a {
 }
 
 .flex-flow-row-wrap {
-	flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .justify-content-space-between {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .w-100 {
-	width: 100%;
+  width: 100%;
 }
 
 .py-2 {
@@ -196,59 +196,59 @@ footer nav a {
 }
 
 .mt-1 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .mt-2 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 .mx-2 {
-	margin: 0px 15px;
+  margin: 0px 15px;
 }
 
 .mb-4 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .bg-teal {
-	background-color: teal;
+  background-color: teal;
 }
 
 .bg-gold {
-	background-color: gold;
+  background-color: gold;
 }
 
 .bg-cadetblue {
-	background-color: cadetblue;
+  background-color: cadetblue;
 }
 
 .bg-coral {
-	background-color: coral;
+  background-color: coral;
 }
 
 .bg-crimson {
-	background-color: crimson;
+  background-color: crimson;
 }
 
 .bg-forestgreen {
-	background-color: forestgreen;
+  background-color: forestgreen;
 }
 
 .bg-darkorchid {
-	background-color: darkorchid;
+  background-color: darkorchid;
 }
 
 .bg-hotpink {
-	background-color: hotpink;
+  background-color: hotpink;
 }
 
 .bg-indigo {
-	background-color: indigo;
+  background-color: indigo;
 }
 
 .bg-dodgerblue {
-	background-color: dodgerblue;
+  background-color: dodgerblue;
 }
 
 .btn {
@@ -272,7 +272,7 @@ footer nav a {
 }
 
 .border-dashed {
-	border: 1px dashed black;
+  border: 1px dashed black;
 }
 
 /* Element specific styles */
