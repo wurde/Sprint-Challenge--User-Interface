@@ -151,12 +151,16 @@ footer nav a {
   flex-flow: row wrap;
 }
 
-.col-3, .col-9, .col-12 {
+.col-3, .col-6, .col-9, .col-12 {
   padding: 0px; 15px;
 }
 
 .col-3 {
   width: 25%;
+}
+
+.col-6 {
+	width: 50%;
 }
 
 .col-9 {
