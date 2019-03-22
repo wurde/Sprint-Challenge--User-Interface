@@ -199,6 +199,10 @@ footer nav a {
 	margin-top: 25px;
 }
 
+.mx-2 {
+	margin: 0px 15px;
+}
+
 .bg-teal {
 	background-color: teal;
 }
