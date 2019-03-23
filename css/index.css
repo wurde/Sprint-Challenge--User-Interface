@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,39 +12,39 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
@@ -67,8 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .top-content {
@@ -76,18 +76,18 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
 }
 
 .middle-content h2 {
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,193 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Re-usable CSS class-based styles */
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col-3, .col-4, .col-6, .col-9, .col-12 {
+  padding: 0px 15px;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-flow-row-wrap {
+  flex-flow: row wrap;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-220px {
+  height: 220px;
+}
+
+.p-2 {
+  padding: 15px;
+}
+
+.py-2 {
+  padding: 15px 0px;
+}
+
+.py-4 {
+  padding: 30px 0px;
+}
+
+.px-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 25px;
+}
+
+.mx-2 {
+  margin: 0px 15px;
+}
+
+.mb-4 {
+  margin-bottom: 30px;
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.bg-cadetblue {
+  background-color: cadetblue;
+}
+
+.bg-coral {
+  background-color: coral;
+}
+
+.bg-crimson {
+  background-color: crimson;
+}
+
+.bg-forestgreen {
+  background-color: forestgreen;
+}
+
+.bg-darkorchid {
+  background-color: darkorchid;
+}
+
+.bg-hotpink {
+  background-color: hotpink;
+}
+
+.bg-indigo {
+  background-color: indigo;
+}
+
+.bg-dodgerblue {
+  background-color: dodgerblue;
+}
+
+.bg-grey {
+  background-color: #EEE;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.rounded {
+  border-radius: 12px;
+}
+
+.border-dashed {
+  border: 1px dashed black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Element specific styles */
+
+.top-navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Mobile styles */
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .col-3, .col-4, .col-6, .col-9 {
+    width: 100%;
+  }
+  .pl-0 {
+    padding: 0px;
+  }
+  .pr-0 {
+    padding: 0px;
+  }
 }

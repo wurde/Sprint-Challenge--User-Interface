@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -8,68 +7,91 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
-
+  <link rel="stylesheet" href="css/animation.css">
 </head>
-
 <body>
-    <div class="container">
-   
-        <section class="top-content">
-            <div class="text-container">
-                <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-            <div class="text-container">
-                <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-        </section>
-        
-        <section class="middle-content">
-        
-            <h2>Why Did It Have To Be Boxes...</h2>
-            
-            <div class="boxes">
-                <div class="box">Box 1</div>
-                <div class="box">Box 2</div>
-                <div class="box">Box 3</div>
-                <div class="box">Box 4</div>
-                <div class="box">Box 5</div>
-                <div class="box">Box 6</div>
-                <div class="box">Box 7</div>
-                <div class="box">Box 8</div>
-                <div class="box">Box 9</div>
-                <div class="box">Box 10</div>
-            </div>
-        
-        </section>
 
-        <section class="bottom-content">
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-3 py-2">
+          <a href="index.html"><img src="img/lambda-black.png" alt="Logo"/></a>
+        </div>
 
-            <div class="text-container">
-                <h2>That's</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-            <div class="text-container">
-                <h2>No</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-            <div class="text-container">
-                <h2>Moon</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
+        <div class="col-9 py-2">
+          <nav class="top-navbar w-100">
+            <ul class="d-flex flex-flow-row-nowrap justify-content-space-between mt-2">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-        </section>
-        
-        <footer>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </nav>
-        </footer>
-    </div><!-- container -->        
+      <div class="row">
+        <div class="col-12 py-2">
+          <img src="img/jumbo.jpg" alt="A timelapse photo of traffic." class="w-100"/>
+        </div>
+      </div>
+    </header>
+
+    <section class="top-content">
+      <div class="text-container">
+        <h2>The Future</h2>
+        <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+      </div>
+
+      <div class="text-container">
+        <h2>The Past</h2>
+        <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+      </div>
+    </section>
+
+    <section class="middle-content">
+      <h2>Why Did It Have To Be Boxes...</h2>
+
+      <div class="boxes">
+        <div class="box bg-teal anim-spin-hover">Box 1</div>
+        <div class="box bg-gold anim-grow-hover">Box 2</div>
+        <div class="box bg-cadetblue anim-fadeout-hover">Box 3</div>
+        <div class="box bg-coral anim-spin-hover">Box 4</div>
+        <div class="box bg-crimson anim-grow-hover">Box 5</div>
+        <div class="box bg-forestgreen anim-fadeout-hover">Box 6</div>
+        <div class="box bg-darkorchid anim-spin-hover">Box 7</div>
+        <div class="box bg-hotpink anim-grow-hover">Box 8</div>
+        <div class="box bg-indigo anim-fadeout-hover">Box 9</div>
+        <div class="box bg-dodgerblue anim-spin-hover">Box 10</div>
+      </div>
+    </section>
+
+    <section class="bottom-content">
+      <div class="text-container">
+        <h2>That's</h2>
+        <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+      </div>
+      <div class="text-container">
+        <h2>No</h2>
+        <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+      </div>
+      <div class="text-container">
+        <h2>Moon</h2>
+        <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </footer>
+  </div>
+
 </body>
 </html>

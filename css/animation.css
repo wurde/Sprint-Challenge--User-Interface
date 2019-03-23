@@ -1,0 +1,42 @@
+/* Re-usable CSS class-based animations */
+
+.anim-spin-hover:hover {
+  animation-name: spin;
+  animation-duration: 2s;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.anim-grow-hover:hover {
+  animation-name: grow;
+  animation-duration: 2s;
+}
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(3);
+  }
+}
+
+
+.anim-fadeout-hover:hover {
+  animation-name: fadeout;
+  animation-duration: 2s;
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
